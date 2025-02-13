@@ -4,13 +4,26 @@
   "description": "webpack tutorial",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "format": "prettier . --write"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew-shaw/webpack-demo.git"
+  },
+  "author": "Matt Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthew-shaw/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/matthew-shaw/webpack-demo#readme",
   "devDependencies": {
-    "webpack": "^5.92.0",
-    "webpack-cli": "^5.1.4"
+    "prettier": "^3.5.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

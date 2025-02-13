@@ -1,3 +1,1 @@
-# webpack-demo
-
-webpack tutorial
+# Webpack Demo
