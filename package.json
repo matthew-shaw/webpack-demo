@@ -1,7 +1,7 @@
 {
   "name": "webpack-demo",
   "version": "1.0.0",
-  "description": "webpack tutorial",
+  "description": "Webpack tutorial",
   "private": true,
   "scripts": {
     "build": "webpack",
